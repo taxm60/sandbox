@@ -1,7 +1,11 @@
 <?php
 
-use Project1\DateTime;
+require "functions.php";
 
-require "DateTime.php";
+use App\Utils;
 
-$obj = new DateTime;
+use const App\Utils\MAX;
+
+echo MAX;
+
+?>
