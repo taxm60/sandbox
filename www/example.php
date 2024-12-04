@@ -1,11 +1,10 @@
 <?php
 
-require "functions.php";
+require "Item.php";
+use App\Models\Admin\Item;
 
-use App\Utils;
 
-use const App\Utils\MAX;
-
-echo MAX;
+$obj = new Item;
+var_dump($obj);
 
 ?>
